@@ -1,12 +1,14 @@
 import "./App.css";
-import { ConditionalRendering } from "./components/ConditionalRendering";
+import AppWithFactory from "./components/AppWithFactory";
+// import { ConditionalRendering } from "./components/ConditionalRendering";
 // import { UtilityMap } from "./components/UtilityMap";
 
 function App() {
   return (
     <>
-      <ConditionalRendering />
+      {/* <ConditionalRendering /> */}
       {/* <UtilityMap /> */}
+      <AppWithFactory />
     </>
   );
 }
